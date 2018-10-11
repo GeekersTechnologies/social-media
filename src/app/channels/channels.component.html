@@ -1,0 +1,37 @@
+<div class="container-fluid">
+	<div class="row">
+		<section class="col-md-2 channelbar">
+			<input type="text" class="search" placeholder="Search">
+			<h2>CHANNELS</h2>
+			<ul>
+				<li><span class="hash">#</span> channel1</li>
+				<li><span class="hash">#</span> channel2</li>
+				<li><span class="hash">#</span> channel3</li>
+			</ul>
+			<h2>DIRECT MESSAGES</h2>
+			<ul class="dm">
+				<li>Jaskaran Singh</li>
+				<li>Gurmeet Singh</li>
+				<li>Chacha Chatra</li>
+				<li>Sucha Singh</li>
+				<li>Ghaseeta Ram</li>
+			</ul>
+		</section>
+		<section class="col-md-10 chatarea bg-dark">
+			<section class="chathead">
+				<div class="row">
+					<div class="col-md-11">
+						<p><span class="hash">#</span> general</p>
+					</div>
+					<div class="col-md-1">
+						<a href="#" class="logoutbtn" (click)="RegisterService.logout()">Logout</a>
+					</div>
+				</div>
+			</section>
+			<section class="chatbody"></section>
+			<section>
+				<input type="text" class="chatinput fixed-bottom" onkeypress="chatenter(event)" placeholder="Type here to chat ...">
+			</section>
+		</section>
+	</div>
+</div>

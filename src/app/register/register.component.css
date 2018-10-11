@@ -1,0 +1,42 @@
+.formwrapper {
+	height: 100vh;
+	background-color: #123;
+}
+
+.registerform {
+	width: 450px;
+}
+
+.registerform h4 {
+	color: #FFF;
+}
+
+.registerform input {
+	border-radius: 0;
+	border: 1px solid;
+	background-color: transparent;
+	color: #efefef;
+}
+
+.registerform button {
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	transition: all 1s ease;
+}
+
+.registerform button:hover {
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	transition: all 1s ease;
+	background-color: peru;
+}
+
+.registerform input:focus {
+	background-color: #112;
+}
+
+.forminner {
+	height: 100vh;
+}

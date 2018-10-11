@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	overflow-y: hidden;
+}
+
+.message {
+	padding: 20px;
+	color: #FFF;
+	font-family: Arial;
+	font-weight: lighter;
+	font-size: 14px;
+	display: inline-flex;
+}
+
+.msgdate {
+	font-size: 11px;
+	color: #333;
+	position: relative;
+	text-align: left;
+	font-family: Arial;
+	padding-right: 20px;
+	padding-top: 4px;
+}
+
+.msgbox {
+	border-bottom: 1px solid #111;
+	padding: 0;
+	padding-left: 15px;
+	min-height: 90px;
+}
+
+.msgcont {
+	color: grey;
+	font-weight: lighter;
+	padding-left: 60px;
+	margin-top: -15px;
+}
+.userimg {
+	border-radius: 50%;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 40px;
+	width: 40px;
+}
+
+.chatbody {
+	overflow: scroll;
+	padding-left: 20px;
+	padding-right: 20px;
+}
